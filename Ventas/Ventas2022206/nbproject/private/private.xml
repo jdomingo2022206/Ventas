@@ -3,10 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Informatica/Desktop/Ventas2022206/src/java/modelo/Venta.java</file>
-            <file>file:/C:/Users/Informatica/Desktop/Ventas2022206/web/Principal.jsp</file>
-            <file>file:/C:/Users/Informatica/Desktop/Ventas2022206/src/java/config/Conexion.java</file>
-            <file>file:/C:/Users/Informatica/Desktop/Ventas2022206/web/RegistrarVenta.jsp</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/modelo/Cliente.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/config/Conexion.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/modelo/Venta.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/web/Home.jsp</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/web/Principal.jsp</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/modelo/ClienteDAO.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/controlador/Controlador.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/modelo/Producto.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/src/java/modelo/ProductoDAO.java</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/web/Empleado.jsp</file>
+            <file>file:/C:/wk/Ventas/Ventas/Ventas2022206/web/RegistrarVenta.jsp</file>
         </group>
     </open-files>
 </project-private>

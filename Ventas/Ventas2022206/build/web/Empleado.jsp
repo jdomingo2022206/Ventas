@@ -56,7 +56,7 @@
                             <td>ACCIONES</td>
                         </tr>
                     </thead>
-                    <tbody>     /*var del metodo         var del controlador*/ 
+                    <tbody>     <!-- /*var del metodo         var del controlador*/   -->
                         <c:forEach var="empleado" items="${empleados}">
                             <tr>
                                 <td>${empleado.getCodigoEmpleado()}</td>

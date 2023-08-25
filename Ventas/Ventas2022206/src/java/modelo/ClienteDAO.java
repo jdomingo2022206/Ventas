@@ -116,6 +116,34 @@ public class ClienteDAO {
                 e.printStackTrace();
             }
         }
+        
+        
+        public Cliente buscarCliente(int codCl){
+            
+            Cliente cl = new Cliente();
+            String sql = "select * from Cliente where codigoCliente= "+codCl;
+            try{
+                con = cn.Conexion();
+                ps = con.prepareStatement(sql);
+                //ps.setString(1, dpi);
+                rs = ps.executeQuery();
+                
+                while(rs.next()){
+                    cl.setCodigoCliente(rs.getInt(1));
+                    cl.setDPICliente(rs.getString(2));
+                    cl.setNombresCliente(rs.getString(3));
+                    cl.setDireccionCliente(rs.getString(4));
+                    cl.setEstado(rs.getString(5));
+                    
+                    
+                }
+                
+            }catch(Exception e){
+                e.printStackTrace();
+                
+            }
+            return cl;
+        }
     
 }
 

@@ -2,7 +2,7 @@ package modelo;
 
 public class Venta {
     //Atributos
-    private int codigoVente;
+    private int codigoVenta;
     private int item;
     private int codigoCliente;
     private int codigoEmpleado;
@@ -14,11 +14,14 @@ public class Venta {
     private int cantidad;
     private Double monto;
     private String estado;
+    private double subTotal;
+
+    
 
     public Venta() {}
 
-    public Venta(int codigoVente, int item, int codigoCliente, int codigoEmpleado, int codigoProducto, String numeroSerie, String descripcionProd, String fecha, Double precio, int cantidad, Double monto, String estado) {
-        this.codigoVente = codigoVente;
+    public Venta(int codigoVenta, int item, int codigoCliente, int codigoEmpleado, int codigoProducto, String numeroSerie, String descripcionProd, String fecha, Double precio, int cantidad, Double subTotal, Double monto, String estado) {
+        this.codigoVenta = codigoVenta;
         this.item = item;
         this.codigoCliente = codigoCliente;
         this.codigoEmpleado = codigoEmpleado;
@@ -28,16 +31,17 @@ public class Venta {
         this.fecha = fecha;
         this.precio = precio;
         this.cantidad = cantidad;
+        this.subTotal = subTotal;
         this.monto = monto;
         this.estado = estado;
     }
 
-    public int getCodigoVente() {
-        return codigoVente;
+    public int getCodigoVenta() {
+        return codigoVenta;
     }
 
-    public void setCodigoVente(int codigoVente) {
-        this.codigoVente = codigoVente;
+    public void setCodigoVenta(int codigoVente) {
+        this.codigoVenta = codigoVente;
     }
 
     public int getItem() {
@@ -128,7 +132,13 @@ public class Venta {
         this.estado = estado;
     }
     
-    
+    public Double getSubTotal() {
+        return subTotal;
+    }
+
+    public void setSubTotal(Double subTotal) {
+        this.subTotal = subTotal;
+    }
     
     
 }
