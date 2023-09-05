@@ -16,9 +16,15 @@
         <div class="d-flex">
             <div class="card col-sm-4">
                 <div class="card-body">
+                    
+                    
+                    <!-- <img src="img/${usuario.getUsuario()}.png" alt="" width="60">
+                    
+                    <h1>${usuario.getNombresEmpleado()}</h1> -->
+                    
                     <img src="img/jdomingo-2022206.png" alt="" width="300">
                     <h1>Jonathan Alexander Domingo Carrillo</h1>
-
+                    
                     <h2>Carné: 2022206     Sección: IN5BV</h2>
                     <label>Este programa esta hecho para la administración de ventas, clientes, empleados y productos.</label>
                     <label>Cuenta con un sistema de cruds que permiten las 4 fucniones b[asicas de todo programa,</label>

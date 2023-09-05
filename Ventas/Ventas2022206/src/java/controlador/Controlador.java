@@ -43,6 +43,9 @@ public class Controlador extends HttpServlet {
     Double precio, subTotal, totalPagar;
     
     
+    //Empleado home 
+    Empleado empl = new Empleado();
+    
     int codEmpleado;
     int codProducto;
     int codCliente;
@@ -259,6 +262,8 @@ public class Controlador extends HttpServlet {
             }
             request.getRequestDispatcher("RegistrarVenta.jsp").forward(request, response);
         }else if(menu.equals("Home")){
+            // Empleado empl = new Empleado ();
+            // request.setAttribute("usuario", empl);
             request.getRequestDispatcher("Home.jsp").forward(request, response);
         }
     }
